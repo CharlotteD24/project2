@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Contact</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="curriculum vitea.html">Curriculum Vitea</a></li>
+        <li><a href="ervaring.html">Ervaringen</a></li>
+        <li><a href="hobby's&interesses.html">Hobby's & interesses</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+    <section class="content">
+        <div class="content-left">
+            <p>Als u nog verdere vragen heeft, gelieve uw gegevens en vraag in te vullen.</p>
+            <form action="https://tm-statweb.be/sendmail.php" method="post">
+                <div>
+                    <label for="naam">
+                            "Naam: "
+                            <input type="text" name="naampje" id="naam" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="email">
+                        "Email: "
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="onderwerp">
+                        "Onderwerp: "
+                        <input type="text" name="onderwerp" id="onderwerp" required>
+                    </label>
+                </div>
+                <div>
+                    <textarea name="vraag" id="vraag" cols="30" rows="10" placeholder="Stel hier je vraag." required></textarea>
+                </div>
+                <input type="hidden" name="mailardess" value="r0956350@student.thomasmore.be">
+                <div>
+                    <button>Verzenden</button>
+                </div>
+            </form>
+        </div>
+        <div class="content-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39867.8918637118!2d4.77251395!3d51.352631849999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6a9404be7ba0f%3A0x40099ab2f4d5b10!2s2310%20Rijkevorsel!5e0!3m2!1snl!2sbe!4v1666702827771!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+</html>

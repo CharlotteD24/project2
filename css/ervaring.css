@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(99, 99, 225);
+  }
+  
+  .active {
+    background-color: rgb(27, 165, 219);
+  }
+  h1{
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  .content {
+    margin: 0px;
+    padding: 10px;
+    overflow: auto;
+  }
+  .content-left {
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+  }
+  .content-right {
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+  }
