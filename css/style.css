@@ -1,11 +1,14 @@
 body {
     font-family: Arial;
   }
+
 header {
     background-color: lightskyblue;
     color: white;
+    margin-bottom: 20px;
   }
-  
+
+
   ul {
     list-style-type: none;
     margin: 0;
