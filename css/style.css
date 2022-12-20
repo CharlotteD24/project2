@@ -12,8 +12,8 @@ header {
     background-color: lightskyblue;
     margin-bottom: 0px;
     margin-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .row {
@@ -24,8 +24,5 @@ header {
   a:hover:not(.active) {
     background-color: rgb(99, 99, 225);
   }
-  
-  .active {
-    background-color: rgb(27, 165, 219);
-  }
+
   
