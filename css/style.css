@@ -1,6 +1,10 @@
 body {
     font-family: Arial;
   }
+header {
+    background-color: lightskyblue;
+    color: white;
+  }
   
   ul {
     list-style-type: none;
@@ -22,16 +26,11 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  a:hover:not(.active) {
     background-color: rgb(99, 99, 225);
   }
   
   .active {
     background-color: rgb(27, 165, 219);
   }
-  h1{
-    background-color: lightskyblue;
-    margin: 0;
-    padding: 0;
-    color: white;
-  }
+  

@@ -10,17 +10,28 @@
     <title>Contact</title>
 </head>
 <body>
-    <h1>
-        Hello world
-    </h1>
-
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="curriculumvitea.html">Curriculum Vitea</a></li>
-        <li><a href="ervaring.html">Ervaringen</a></li>
-        <li><a href="hobbyinteresses.html">Hobby's & interesses</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
-    </ul>
+    <header>
+        <h1>
+            Hello world
+        </h1>
+    
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="curriculumvitea.html">Curriculum Vitae</a>
+                  <a class="nav-link" href="ervaring.html">Ervaringen</a>
+                  <a class="nav-link" href="hobbyinteresses.html">hobby’s en interesses</a>
+                  <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
 
     <div>
         <p>Als u nog verdere vragen heeft, gelieve uw gegevens en vraag in te vullen.</p>
@@ -45,8 +56,12 @@
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Onderwerp</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Onderwerp</option>
+                            <option value="1">C#</option>
+                            <option value="2">HTML & css</option>
+                            <option value="3">jAVASCRIPT</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
