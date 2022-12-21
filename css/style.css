@@ -25,4 +25,9 @@ header {
     background-color: rgb(99, 99, 225);
   }
 
+  .carousel .carousel-item{
+    max-height: 350px;
+  }
+
+
   
